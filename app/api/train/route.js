@@ -36,7 +36,7 @@ export async function POST(req) {
           // Upsert the vector with description to be further as the context to upcoming questions
           upstashVectorIndex.upsert({
             vector,
-            id: index.toString(),
+            id: Math.floor(Math.random() * Date.now()).toString(),
             metadata: { description: messagesToVectorize[index] },
           }),
         ),
