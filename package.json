@@ -1,0 +1,40 @@
+{
+  "name": "custom-rag-chatbot-upstash-vector",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "fmt": "prettier --write '**/*' --ignore-unknown"
+  },
+  "dependencies": {
+    "@huggingface/inference": "2.6.4",
+    "@langchain/community": "0.0.21",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@upstash/redis": "1.28.2",
+    "@upstash/vector": "1.0.0",
+    "ai": "2.2.31",
+    "langchain": "0.1.9",
+    "lucide-react": "^0.316.0",
+    "next": "14.1.0",
+    "postcss": "8.4.33",
+    "prettier": "3.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "9.0.1",
+    "replicate": "0.18.1"
+  },
+  "devDependencies": {
+    "@radix-ui/react-slot": "1.0.2",
+    "@tailwindcss/typography": "0.5.10",
+    "autoprefixer": "10.4.17",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.0",
+    "dotenv": "16.4.1",
+    "react-syntax-highlighter": "15.5.0",
+    "remark-gfm": "4.0.0",
+    "remark-math": "6.0.0",
+    "tailwind-merge": "2.2.1",
+    "tailwindcss": "3.4.1",
+    "tailwindcss-animate": "1.0.7"
+  }
+}
