@@ -1,4 +1,4 @@
-<!-- ![](https://raw.githubusercontent.com/xataio/mdx-blog/main/images/gallery-cms-astro-cloudflare.png) -->
+![](https://upstash.com/blog/rag-chatbot-upstash/opengraph-image)
 
 # Build your own RAG chatbot with Upstash
 
